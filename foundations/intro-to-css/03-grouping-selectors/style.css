@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+
+.Class 
+{
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+.Class.One 
+{
+    background-color: black;
+    color: white;
+}
+
+.Class.Two 
+{
+    background-color: yellow;
+}
