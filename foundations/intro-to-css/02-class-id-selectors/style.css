@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+
+.cool
+{
+    background-color: lightpink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#cool-id
+{
+    color: blue;
+    font-size: 36px;
+}
+
+.cool.extra
+{
+    font-size: 24px;
+}
+
+#other-id
+{
+    background-color: lightgreen; font-size: 24px; font-weight: bold;
+}
