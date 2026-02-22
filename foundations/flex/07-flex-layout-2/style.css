@@ -5,9 +5,14 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
   height: 72px;
+  padding: 8px;
   background: darkmagenta;
   color: white;
+  font-weight: 700;
 }
 
 .footer {
@@ -16,14 +21,68 @@ body {
   color: darkmagenta;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
 .sidebar {
+  display: flex;
+  flex-direction: column;
   width: 300px;
+  flex-shrink: 0;
+  height: 600px;
   background: royalblue;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 16px;
+  flex: 1;
+  padding: 16px;
   box-sizing: border-box;
 }
 
 .card {
+  display: flex;
+  padding: 16px;
+  width: 300px;
+  height: auto;
+  flex-shrink: 1;
+  background: white;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  font-size: 18px;
 }
