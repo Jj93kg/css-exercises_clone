@@ -22,6 +22,38 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.outer {
+  background: #eee;
+  height: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.inner {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
